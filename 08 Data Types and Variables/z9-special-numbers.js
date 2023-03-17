@@ -8,20 +8,18 @@ function specialNumbers(num) {
 
         for (let j = 0; j < result.length; j++) {
             sum += Number(result[j]);
-            switch (sum) {
-                case 5:
-                case 7:
-                case 11:
-                    console.log(`${result} -> True`);
-                    break;
-                default:
-                    console.log(`${result} -> False`);
-                    break;
-            }
-            sum = 0;
-            result = Number(result);
-
         }
+        switch (sum) {
+            case 5:
+            case 7:
+            case 11:
+                console.log(`${result} -> True`);
+                break;
+            default:
+                console.log(`${result} -> False`);
+                break;
+        }
+        sum = 0;
     }
 }
-specialNumbers(15);
+specialNumbers(20);

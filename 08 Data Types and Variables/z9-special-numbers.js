@@ -1,5 +1,4 @@
 function specialNumbers(num) {
-    isSpecial = false;
     let sum = 0;
 
     for (let result = 1; result <= num; result++) {

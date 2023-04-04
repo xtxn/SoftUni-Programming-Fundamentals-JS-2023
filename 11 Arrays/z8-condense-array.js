@@ -1,7 +1,7 @@
 function condenseArray(arr) {
     let leftVar;
     let rightVar;
-    arr
+
     while (arr.length > 1) {
         let condensed = [];
         for (let i = 0; i < arr.length - 1; i++) {
@@ -10,7 +10,6 @@ function condenseArray(arr) {
             condensed.push(leftVar + rightVar);
         }
         arr = condensed;
-        condensed
     }
     console.log(Number(arr));
 }

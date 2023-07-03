@@ -15,6 +15,4 @@ function addAndRemove(array) {
         console.log(newArray.join(' '));
     }
 }
-addAndRemove(
-    ['remove', 'remove', 'remove']
-)
+addAndRemove(['add', 'add', 'remove', 'add', 'add']);

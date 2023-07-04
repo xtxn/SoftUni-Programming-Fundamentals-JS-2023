@@ -12,6 +12,4 @@ function orders(product, quantity) {
     }
     console.log((quantity * price).toFixed(2));
 }
-orders(
-    "coffee", 2
-)
+orders('water', 5);
